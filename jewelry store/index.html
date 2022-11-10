@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="engagement rings" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Daniela Beric" />
+    <title>POSH</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://kit.fontawesome.com/c9b42540ef.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container grid-wrapper">
+            <div class="diamond">
+                <i class="fab fa-sketch"></i>
+            </div>
+            <h1>POSH</h1>
+            <div class="diamond">
+                <i class="fab fa-sketch"></i>
+            </div>
+            <div id="shopping">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="shopping-count">0</span>
+            </div>
+            <nav>
+                <a class="link" href="#about">About </a>
+                <a class="link" href="#kupi">Offers </a>
+                <a class="link" href="#kontakt">Contact us </a>
+            </nav>
+        </div>
+    </header>
+    <!--Main-->
+    <main>
+        <!-- banner -->
+        <section id="BANNER">
+            <img src="./images/baner1.png" alt="Banner">
+            <div class="banner-text">
+                <h2>Handcrafted fine jewelry</h2>
+                <a href="#kupi">SHOP</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Our story</h2>
+            <p>
+                We’re a close-knit team of creatives based in New York, USA who use diamonds and gold to share stories.
+                <br />
+                That’s why quality is our top priority and we present delicate, made-to-order jewelry, from our hands to
+                yours.
+                <br />
+                In just over a decade, our passion for jewelry-making went from being a hobby to becoming a successful
+                operation that
+                makes high-quality jewelry experiences for thousands of people all over the world. POSH Fine Jewelry won
+                the
+                “Creative Concepts in Retailing Award” from the Retailers Association of Massachusetts’ in 2019. And in
+                2020, Inc.
+                Magazine recognized us as being one of the fastest-growing private companies in America, with 731%
+                revenue growth in
+                just three years.
+            </p>
+        </section>
+        <!--ponuda-->
+        <section id="kupi">
+            <h1>Take a look at what we have to offer</h1>
+            <h2>Engagement rings</h2>
+            <div class="nakit">
+                <article>
+                    <img src="./images/s2.jpg" alt="Diamond ring" width="200">
+                    <h3>Diamond Helio Ring</h3>
+                    <span>Starting at <em>7,400$</em> </span>
+                    <button class="botun">Add to chart</button>
+                </article>
+                <article>
+                    <img src="./images/s3.jpg" alt="Princess Cut Diamond" width="200">
+                    <h3>Unveiled Ring with Pave Band</h3>
+                    <span>Starting at <em>7,200$</em></span>
+                    <button class="botun">Add to chart</button>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h2>Bracelets</h2>
+            <div class="nakit">
+                <article>
+                    <img src="./images/s4.jpg" alt="Diamond bracelet" width="200">
+                    <h3>Grand Diamond Edison Bracelet</h3>
+                    <span>Starting at <em>5,600$</em> </span>
+                    <button class="botun">Add to chart</button>
+                </article>
+                <article>
+                    <img src="./images/s5.jpg" alt="Diamond bracelet" width="200">
+                    <h3>Diamond Prelude Bracelet</h3>
+                    <span>Starting at <em>390$</em></span>
+                    <button class="botun">Add to chart</button>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h2>Necklaces</h2>
+            <div class="nakit">
+                <article>
+                    <img src="./images/s6.jpg" alt="Diamond necklace" width="200">
+                    <h3>Passage Necklace</h3>
+                    <span>Starting at <em>420$</em> </span>
+                    <button class="botun">Add to chart</button>
+                </article>
+                <article>
+                    <img src="./images/s7.jpg" alt="Diamond necklace" width="200">
+                    <h3>Moonbeam Necklace</h3>
+                    <span>Starting at <em>200$</em></span>
+                    <button class="botun">Add to chart</button>
+                </article>
+            </div>
+        </section>
+        <div>
+            <h2 class="naslov-galerija">Gallery</h2>
+            <section class="galerija">
+                <img class="myImages" id="myImg" src="./images/s8.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s9.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s10.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s11.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s12.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s13.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s14.jpg" alt="" width="100%">
+                <img class="myImages" id="myImg" src="./images/s15.jpg" alt="" width="100%">
+
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </section>
+            <!--Kontakt-->
+            <section id="kontakt">
+                <h2>Want to contact us?</h2>
+                <form>
+                    <div class="form-oblik">
+                        <label for="mail">Email</label>
+                        <input type="email" name="email" id="mail" placeholder="example@mail.com" />
+                    </div>
+
+                    <div class="form-oblik">
+                        <label for="naslov">Caption</label>
+                        <input type="text" name="subject" id="naslov" placeholder="Caption" />
+                    </div>
+
+                    <div class="form-oblik">
+                        <label for="poruka">Message</label>
+                        <textarea id="poruka" name="message" rows="3" placeholder="Your message..."></textarea>
+                    </div>
+
+                    <button class="botun" type="submit">Send</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <div class="footer-sadrzaj">
+            <h3>POSH</h3>
+            <p>Follow us:</p>
+            <ul class="socials">
+                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-official"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+            <div class="copyright">
+                <p> &copy; 2021 Daniela Berić</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
